@@ -7,6 +7,9 @@ module Concerns
     
     def find_or_create_by_name(name)
       if obj = self.find_by_name(name)
+        obj
+      else 
+        self.create 
     end 
     
   end 
