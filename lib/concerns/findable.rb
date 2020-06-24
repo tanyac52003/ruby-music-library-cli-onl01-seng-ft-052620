@@ -9,7 +9,7 @@ module Concerns
       if obj = self.find_by_name(name)
         obj
       else 
-        self.create 
+        self.create(name) 
     end 
     
   end 
