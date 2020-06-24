@@ -5,7 +5,9 @@ module Concerns
       self.all.find {|obj| obj.name == name}
     end 
     
-    def find_or_create_by_name
+    def find_or_create_by_name(name)
+      
+    end 
     
   end 
 end 
